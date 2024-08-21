@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Meu Decodificador de Textos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="https://www.alura.com.br/?utm_term=alura&utm_campaign=%5BSearch%5D+%5BPerformance%5D+Institucional+-+Paran%C3%A1&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=20234124477&hsa_grp=150249101655&hsa_ad=660813755680&hsa_src=g&hsa_tgt=aud-2198071142142:kwd-300088401&hsa_kw=alura&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwoJa2BhBPEiwA0l0ImNDCCfHqLM0rMBR8DZggvD8kIGtt6myQOFWSjxL_ABm9Eypja-xw9hoCWSQQAvD_BwE"><img src="img/logo.png" alt="logo-alura"></a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <textarea class="text-entrada" placeholder="digite seu texto..." rows="4" cols="41"></textarea>
+            <div class="aviso">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="bt-encriptador" onclick="btEncriptador()">Criptografar</button>
+                <button class="bt-descriptador" onclick="btDescriptador()">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <div class="text-saida">
+                <textarea class="resultado" rows="10" cols="20"></textarea>
+                <button class="bt-copiar" onclick="Copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/cri-suh">
+            <p>Desenvolvido por Cristiano Silva</p>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
