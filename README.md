@@ -1,2 +1,2 @@
 # Desafio-decodificador
- criptador e descriptador de texto
+ Este projeto é um decodificador de textos desenvolvido com HTML, CSS e JavaScript. Ele permite criptografar e descriptografar mensagens usando um conjunto específico de substituições de letras. Além disso, o texto resultante pode ser copiado para a área de transferência. O projeto foi desenvolvido com base nas regras fornecidas e inclui uma interface amigável e responsiva.
